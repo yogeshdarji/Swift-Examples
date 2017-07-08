@@ -22,6 +22,7 @@
 		3C4E4FBA1EE5BBAC00E9E063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4E4FBD1EE5BBAC00E9E063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C4E4FBF1EE5BBAC00E9E063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4E4FC61F001F3800E9E063 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,23 @@
 		3C4E4FB21EE5BBAC00E9E063 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				3C4E4FB31EE5BBAC00E9E063 /* AppDelegate.swift */,
 				3C4E4FB51EE5BBAC00E9E063 /* ViewController.swift */,
 				3C4E4FB71EE5BBAC00E9E063 /* Main.storyboard */,
+				3C4E4FC51EE5CA4500E9E063 /* Supporting Files */,
+				3C4E4FC61F001F3800E9E063 /* MyPlayground.playground */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		3C4E4FC51EE5CA4500E9E063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E4FB31EE5BBAC00E9E063 /* AppDelegate.swift */,
 				3C4E4FBA1EE5BBAC00E9E063 /* Assets.xcassets */,
 				3C4E4FBC1EE5BBAC00E9E063 /* LaunchScreen.storyboard */,
 				3C4E4FBF1EE5BBAC00E9E063 /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
